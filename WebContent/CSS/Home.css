@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+	margin-top: 50px; 
+	font-family: "Arial";
+	text-weight: light;
+	font-size: 14px;
+	color: #ffffff;
+	background: black;
+	font-family: Brandon Grotesque, serif;
+}
+
+h1 {
+	font-family: 'Advent Pro';
+	font-size: 100px;
+	text-align: center;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	text-shadow: 3px 2px grey;
+}
+#logo{
+	display: block;
+	margin: auto;
+    width: 50%;
+	vertical-align: middle;
+	width: 300px;
+	height: 300px;
+}
+.card {
+	background-image: url("../IMG/Recon_Logo_Dark.png");
+	background-size: 300px 300px;
+}
+
+.card:hover {
+    background-image: url('../IMG/Recon_Logo_Light.png');
+}

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	background: grey;
+}
+#header{
+	padding-top: 50px;
+	height: 150px;
+	background: black;
+	color: white;
+	font-size: 100px;
+	text-align: center;
+}
+/* Searchbox */
+input[type=text] {
+	padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 5px;
+    font-size: 17px;
+    border-radius:10px; 
+}
+#favIcon{
+	font-size: 25px;
+	color: white;
+}
+/* Menubar */
+ul {
+	font-family: "Raleway", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;    
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+}
+
+li #home:hover {
+    background-color: #000000;
+}
+li #episodes:hover {
+    background-color: #FF5757;
+}
+li #about:hover {
+    background-color: #FF973B;
+}
+li #cast:hover {
+    background-color: #FFD145;
+}
+li #crew:hover {
+    background-color: #4ECC69;
+}
+li #news:hover {
+    background-color: #548FDE;
+}
+li #social:hover {
+    background-color: #C471E3;
+}
