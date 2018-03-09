@@ -3,6 +3,7 @@
 body{
 	margin: 0;
 	background: grey;
+	height: 2000px;
 }
 #header{
 	padding-top: 50px;
@@ -13,11 +14,17 @@ body{
 	text-align: center;
 }
 /* Searchbox */
+.navbar{
+	position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
 input[type=text] {
 	padding: 6px;
     border: none;
     margin-top: 8px;
     margin-right: 5px;
+    margin-left: 5px;
     font-size: 17px;
     border-radius:10px; 
 }
@@ -67,4 +74,9 @@ li #news:hover {
 }
 li #social:hover {
     background-color: #C471E3;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
 }

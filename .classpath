@@ -13,5 +13,13 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="build/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="build/google-api-client-servlet-1.23.0.jar"/>
+	<classpathentry kind="lib" path="build/google-oauth-client-1.23.0.jar"/>
+	<classpathentry kind="lib" path="build/google-oauth-client-servlet-1.23.0.jar"/>
+	<classpathentry kind="lib" path="build/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="build/httpclient-4.0.1.jar"/>
+	<classpathentry kind="lib" path="build/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="build/transaction-api-1.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
