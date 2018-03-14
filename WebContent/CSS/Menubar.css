@@ -13,11 +13,21 @@ body{
 	font-size: 100px;
 	text-align: center;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+.content {
+  padding: 16px;
+}
 /* Searchbox */
 .navbar{
-	position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+/*     top: 0; Position the navbar at the top of the page
+ */    width: 100%; /* Full width */
 }
 input[type=text] {
 	padding: 6px;

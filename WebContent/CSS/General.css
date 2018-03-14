@@ -5,3 +5,36 @@ h2{
 	color: white;
 	text-align: center;
 }
+h3{
+	font-family: "Raleway", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;    
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+.logo{
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+	border-radius: 15px;
+    border: 2px solid white;
+    padding: 5px; 
+    
+    display: inline;
+    box-shadow: 5px 5px 2px #414141;
+}
+.center{
+	margin: auto;
+    padding: 5px;
+    background: grey;
+}
+
+#socialMedia{
+	width: 532px;
+	margin: auto;
+    background: grey;
+    text-align: center;
+    display: block;
+}
