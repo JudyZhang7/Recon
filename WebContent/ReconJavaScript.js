@@ -37,13 +37,17 @@ function displayCast() {
 	var cast = JSON.parse(request.responseText);
 	console.log(cast);
 	
-	var results; //store the cast members parsed
+	var results = ""; //store the cast members parsed
 	for(i = 0; i< cast._memberList.length; i++){
-		results += "<div id = bio>";
+		results += "<div class = \"bio\">";
 		results += "<img src=\""+ cast._memberList[i]._imageURL+"\" class = \"castPic\"/>";
-		results += cast._memberList[i]._name;
-		results += cast._memberList[i]._description;
+		results += "<div class = \"overlay\">";
+		results += "<div class = \"biotext\">";
+		results += cast._memberList[i]._name + "<br>";
+		results += "<div class = \"italic\">" + cast._memberList[i]._character + "</div>"
+		results += "<div class = \"descrip\">" + cast._memberList[i]._description + "</div></div>";
+		results += "</div></div>";
 	}
 	console.log(results);
-	document.getElementById("castInfo").innerHTML = results;
+	document.getElementById("castInfo").innerHTML += results;
 }
