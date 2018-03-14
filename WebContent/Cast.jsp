@@ -9,13 +9,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="CSS/Cast_Crew.css" />
 
-<title>Cast/Crew</title>
+<title>Cast</title>
 </head>
 <body class = "content">
 
 	<div id = "castInfo"></div>
 	<script>
-	displayCast();
+		displayCast();
 	</script>
 
 	<div include_HTML="SocialMedia.html"></div>

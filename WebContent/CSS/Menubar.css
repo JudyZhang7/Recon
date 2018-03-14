@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body{
+body{	
 	margin: 0;
 	padding: 0;
 	background: grey;
@@ -8,11 +8,14 @@ body{
 #header{
 	padding-top: 50px;
 	height: 150px;
-	background: black;
+	background-image: url("../IMG/ReconFront.png");
+	background-size: 102% auto;
+	background-repeat: no-repeat;
 	color: white;
 	font-size: 100px;
 	text-align: center;
 }
+
 .sticky {
   position: fixed;
   top: 0;

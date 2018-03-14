@@ -35,9 +35,9 @@
 <body>
 <!-- HEADER -->
 <a href = "Home.jsp">
-	<div id = "header"> /[RECON TEMP]
-	<img src = "">
-	</div>
+	<div id = "header">
+<!-- 	<img src = "IMG/ReconFront.png" class = "headerImg">
+ -->	</div>
 </a>
 
 <!-- MENU BAR -->
