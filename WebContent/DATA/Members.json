@@ -4,31 +4,31 @@
 			"_name": "Ana Ming Bostwick-Singer",
 			"_character": "Jodie",
 			"_description": "[Insert description here]",
-			"_imageURL": "/Recon/src/srcimg/Bastwick-Singer_Ana_Ming.png"
+			"_imageURL": "IMG/Bastwick-Singer_Ana_Ming.png"
 		},
 		{
 			"_name": "Victoria Ortiz",
 			"_character": "Ren",
 			"_description": "[Insert description here]",
-			"_imageURL": "/Recon/src/srcimg/Ortiz_Victoria.png"
+			"_imageURL": "IMG/Ortiz_Victoria.png"
 		},
 		{
 			"_name": "Jore Aaron",
 			"_character": "Taylor",
 			"_description": "[Insert description here]",
-			"_imageURL": "/Recon/src/srcimg/Aaron_Jore.png"
+			"_imageURL": "IMG/Aaron_Jore.png"
 		},
 		{
 			"_name": "KatieMichal Pullen",
 			"_character": "Riley",
 			"_description": "[Insert description here]",
-			"_imageURL": "/Recon/src/srcimg/Pullen_KatieMichal.png"
+			"_imageURL": "IMG/Pullen_KatieMichal.png"
 		},
 		{
 			"_name": "Kat Wells",
 			"_character": "Jones",
 			"_description": "[Insert description here]",
-			"_imageURL": "/Recon/src/srcimg/Wells_Kat.png"
+			"_imageURL": "IMG/Wells_Kat.png"
 		}
 	]
 }

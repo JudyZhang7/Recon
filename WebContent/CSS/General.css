@@ -1,5 +1,16 @@
 @charset "UTF-8";
-
+body { 
+	margin: 0; 
+	padding: 0; 	
+	font-family: "Raleway", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;    
+	color: white;
+}
+p{
+	width: 500px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 50px;
+}
 h2{
 	font-family: "Raleway", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;    
 	color: white;
@@ -10,6 +21,7 @@ h3{
 	color: white;
 	text-align: center;
 	font-size: 15px;
+	font-style: italic;
 }
 .logo{
 	height: 50px;
@@ -32,9 +44,19 @@ h3{
 }
 
 #socialMedia{
-	width: 532px;
+	width: 895px;
 	margin: auto;
     background: grey;
     text-align: center;
     display: block;
+    z-index: 1;
+    	margin-top: 300px;
+    
+}
+#twitter-timeline{
+	width: 500px;
+	height: 300px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
 }

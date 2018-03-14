@@ -10,9 +10,11 @@
 <title>Episodes</title>
 </head>
 <body class = "content">
+
 	<h2>Episodes</h2>
 		<div id = "episode">
 		</div>
+	<h3>Coming soon!</h3>
 	<div include_HTML="SocialMedia.html"></div>
 	<script>includeHTML()</script>
 </body>

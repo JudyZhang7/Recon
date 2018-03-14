@@ -39,6 +39,7 @@
 	<img src = "">
 	</div>
 </a>
+
 <!-- MENU BAR -->
 <div id = "navbar">
 	<ul>

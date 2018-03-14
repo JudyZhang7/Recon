@@ -10,6 +10,11 @@
 <title>Insert title here</title>
 </head>
 <body class = "content">
+<div id = twitter-timeline>
+<a class="twitter-timeline" href="https://twitter.com/reconwebseries?ref_src=twsrc%5Etfw">Tweets by reconwebseries</a> 
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</a>
+</div>
 	<h2>Social</h2>
 	<div class = "body"></div>
 	

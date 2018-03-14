@@ -1,8 +1,19 @@
 @charset "UTF-8";
 
 #bio{
+	display:inline-block;
 	width: 300px;
-	heigh: 300px;
-	margin: 10px;
+	height: 300px;
+	margin: 20px;
 	font-family: "Raleway", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;    
+	font-size: 15px;
+}
+#bio img{
+	width: 150px;
+	height: auto;
+}
+
+#castInfo{
+	font-size: 0;
+	display: inline-block;
 }

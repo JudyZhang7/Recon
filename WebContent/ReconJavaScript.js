@@ -29,3 +29,21 @@ function includeHTML() {
 		}
 	}
 };
+
+function displayCast() {
+	var request = new XMLHttpRequest();
+	request.open("GET", "DATA/Members.json", false);
+	request.send(null)
+	var cast = JSON.parse(request.responseText);
+	console.log(cast);
+	
+	var results; //store the cast members parsed
+	for(i = 0; i< cast._memberList.length; i++){
+		results += "<div id = bio>";
+		results += "<img src=\""+ cast._memberList[i]._imageURL+"\" class = \"castPic\"/>";
+		results += cast._memberList[i]._name;
+		results += cast._memberList[i]._description;
+	}
+	console.log(results);
+	document.getElementById("castInfo").innerHTML = results;
+}

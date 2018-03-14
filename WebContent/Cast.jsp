@@ -13,11 +13,10 @@
 </head>
 <body class = "content">
 
-<div id = "bio">
-	<div id = "profilePic">Profile Pic</div>
-	<div id = "Name">Name</div>
-	<div id = "description">Description</div>
-</div>
+	<div id = "castInfo"></div>
+	<script>
+	displayCast();
+	</script>
 
 	<div include_HTML="SocialMedia.html"></div>
 	<script>includeHTML()</script>
