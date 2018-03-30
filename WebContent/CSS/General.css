@@ -9,10 +9,17 @@ body {
 	font-style: italic;
 }
 p{
-	width: 500px;
-	text-align: center;
-	margin: auto;
-	margin-bottom: 50px;
+	position: static;
+	width: 400px;
+	height: 600px;
+	text-align: left;
+	margin-bottom: 50px;	
+	margin-left: 50px;
+}
+.instagram-media{
+	z-index: -1;
+	position: relative;
+	left: 50px;
 }
 h2{
 	font-family: "Raleway", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;    
@@ -48,13 +55,14 @@ h3{
 
 #socialMedia{
 	width: 895px;
+	padding: 20px;
+	margin-top: 50px;
 	margin: auto;
     background: grey;
     text-align: center;
     display: block;
-    z-index: 1;
-    	margin-top: 220px;
-    
+    z-index: -1;
+    float: bottom;
 }
 #twitter-timeline{
 	width: 500px;

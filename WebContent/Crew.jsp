@@ -27,23 +27,25 @@
 				<div class = "italic">co-executive producer</div>
 			</div>
 			<br><div id = "crewInfo">
+				<img src = "IMG/Justice.jpg" class = "crewPic">
 				<h2>Justice Schiappa</h2>
 				<div class = "italic">associate producer</div>
 			</div>
 			<div id = "crewInfo">
+				<img src = "IMG/Kate.jpg" class = "crewPic">
 				<h2>Kate Allanach</h2>
 				<div class = "italic">associate producer</div>
 			</div>	
 				
 		<h1>Writers</h1>
-		<h2>Justice Schiappa <br>
+		Justice Schiappa <br>
 			Sammie Moynihan<br>
 			Christina Ungermann<br>
 			Hal Pan <br>
 			Kate Allanach <br>
 			Megan Foley<br>
 			Eleanor Graham 
-		</h2>
+		
 		
 	</div>
 	

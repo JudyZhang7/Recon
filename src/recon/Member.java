@@ -7,12 +7,20 @@ public class Member implements Serializable{
 	private String _character;
 	private String _description;
 	private String _imageURL;
+	private String _websiteURL;
 	
-	public Member(String name, String character, String description, String imageURL){
+	public Member(String name, String character, String description, String imageURL, String websiteURL){
 		_name = name;
 		_character = character;
 		_description = description;
 		_imageURL = imageURL;
+		_websiteURL = websiteURL;
+	}
+	public String get_websiteURL() {
+		return _websiteURL;
+	}
+	public void set_websiteURL(String _websiteURL) {
+		this._websiteURL = _websiteURL;
 	}
 	//getters and setters===========================================
 	public String get_name() {

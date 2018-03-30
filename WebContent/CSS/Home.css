@@ -8,6 +8,7 @@ body {
 	color: #ffffff;
 	background: black;
 	font-family: Brandon Grotesque, serif;
+	height: 700px;
 }
 a:link, a:visited {
 	text-decoration: none;
@@ -17,7 +18,10 @@ a:hover {
 	text-decoration: none;
 	color: #C471E3; 
 }
-
+p{
+	position: absolute;
+	height: 600px;
+}
 h1 {
 	font-family: 'Advent Pro';
 	font-size: 100px;
@@ -27,6 +31,7 @@ h1 {
 	text-shadow: 3px 2px grey;
 	margin: 0;
 	margin-top: 20px;
+	s
 }
 #logo{
 	display: block;

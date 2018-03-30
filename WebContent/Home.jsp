@@ -13,14 +13,17 @@
 <title>Home</title>
 </head>
 <body class = "content">
-	<!-- TWITTER IMPORTS -->
-<div id = twitter-timeline>
-<a class="twitter-timeline" href="https://twitter.com/reconwebseries?ref_src=twsrc%5Etfw">Tweets by reconwebseries</a> 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</a>
-</div>
 
+	<!-- TWITTER IMPORTS -->
+		<div id = twitter-timeline>
+		<a class="twitter-timeline" href="https://twitter.com/reconwebseries?ref_src=twsrc%5Etfw" data-height="600">Tweets by reconwebseries</a> 
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</a>
+		</div>
+	
 	<h2>Home</h2>
+	<p></p>
+	
 	<div include_HTML="SocialMedia.html"></div>
 	<script>includeHTML()</script>
 

@@ -14,11 +14,10 @@ import com.google.gson.JsonParseException;
 
 public class Parser {
 	private static MemberList _memberList;
-	private String path = "Members.json";
+	private String path = "/Recon/WebContent/DATA/Members.json";
 	
 	public Parser() {
 		_memberList = new MemberList();
-		_memberList.instant(_memberList);
 	}
 	
 	public void readFile()

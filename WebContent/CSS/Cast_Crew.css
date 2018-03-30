@@ -3,25 +3,24 @@
 #castInfo {
 	margin-top: 30px;
 	position: static;
-	z-index: -1;
 	margin: auto;
 }
 #crewInfo {
 	margin-top: 30px;
 	position: static;
-	z-index: -1;
 	margin: auto;
 	display: inline-block;
 	margin: 20px;
 	text-align: center;
 }
+
 .crewPic{
 	width: 300px;
 	border: 2px solid white;
 	padding: 5px;
 }
 .bio {
-	position: relative;
+    position: relative;
 	width: 250px;
 	display: inline-block;
 	margin: 20px;
@@ -30,10 +29,8 @@
 }
 
 .castPic {
-	display: inline-block;
 	width: 250px;
 	height: auto;
-	position: relative;
 }
 
 .overlay {

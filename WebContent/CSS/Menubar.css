@@ -9,7 +9,7 @@ body{
 	padding-top: 50px;
 	height: 150px;
 	background-image: url("../IMG/ReconFront.png");
-	background-size: 102% auto;
+	background-size: 1300px auto;
 	background-repeat: no-repeat;
 	color: white;
 	font-size: 100px;
@@ -26,8 +26,7 @@ body{
 }
 /* Searchbox */
 .navbar{
-/*     top: 0; Position the navbar at the top of the page
- */    width: 100%; /* Full width */
+	width: 100%; /* Full width */
 }
 input[type=text] {
 	padding: 6px;
@@ -44,6 +43,7 @@ input[type=text] {
 }
 /* Menubar */
 ul {
+	z-index: 100;
 	font-family: "Raleway", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;    
 	list-style-type: none;
     margin: 0;
