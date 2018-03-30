@@ -22,7 +22,7 @@
 		</div>
 	
 	<h2>Home</h2>
-	<p></p>
+	<p>Welcome to Recon! <br>Explore the cast and crew. <br>We're excited to have you joining us!</p>
 	
 	<div include_HTML="SocialMedia.html"></div>
 	<script>includeHTML()</script>

@@ -45,7 +45,8 @@ function displayCast() {
 		results += "<div class = \"overlay\">";
 		results += "<div class = \"biotext\">";
 		results += cast._memberList[i]._name + "<br>";
-		results += "<div class = \"italic\">" + cast._memberList[i]._character + "</div>"
+		results += "<div class = \"italic\">" + cast._memberList[i]._character + "</div>";
+		results += "<div class = \"small\">Click to learn more</div>";
 		results += "</div>";
 		results += "</div></div>";
 		results += "</a>"
