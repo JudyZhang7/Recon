@@ -24,7 +24,7 @@
 
 </head>
 <body class = "content">
-
+<div include_HTML="Menubar.html"></div>
 	<div id = "person"></div>
 	<script>
 		var index = getQueryVariable("ID"); 

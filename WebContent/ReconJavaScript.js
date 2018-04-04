@@ -39,7 +39,7 @@ function displayCast() {
 	
 	var results = ""; //store the cast members parsed
 	for(i = 0; i< cast._memberList.length; i++){
-		results += "<a href = \"Profile.jsp?ID=" + i + "\">"
+		results += "<a href = \"Profile.html?ID=" + i + "\">"
 		results += "<div class = \"bio\">";
 		results += "<img src=\""+ cast._memberList[i]._imageURL+"\" class = \"castPic\"/>";
 		results += "<div class = \"overlay\">";

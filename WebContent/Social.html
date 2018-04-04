@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="ReconJavaScript.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Social</title>
+<link rel="stylesheet" type="text/css" href="CSS/Menubar.css" />
+<link rel="stylesheet" type="text/css" href="CSS/General.css" />
+
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript">
+	window.onload = function(){
+		// When the user scrolls the page, execute myFunction 
+		window.onscroll = function() {myFunction()};
+	
+		// Get the navbar
+		var navbar = document.getElementById("navbar");
+	
+		// Get the offset position of the navbar
+		var sticky = navbar.offsetTop;
+	
+		// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+		    navbar.classList.add("sticky")
+		  } else {
+		    navbar.classList.remove("sticky");
+		  }
+		}
+	}
+	</script>
+</head>
+<body class = "content">
+<!-- HEADER -->
+<a href = "Home.html">
+	<div id = "header"></div>
+</a>
+
+<!-- MENU BAR -->
+<div id = "navbar">
+	<ul>
+	  <li><a href="Home.html" id = "home">Home</a></li>
+	  <li><a href="Episodes.html" id = "episodes">Episodes</a></li>
+	  <li><a href="About.html" id = "about">About</a></li>
+	  <li><a href="Cast.html" id = "cast">Cast</a></li>
+	  <li><a href="Crew.html" id = "crew" >Crew</a></li>
+	  <li><a href="News.html" id = "news">News</a></li>
+	  <li><a href="Social.html" id = "social">Social</a></li>
+	  <li>
+		  <form id = "search">
+		  	<input id = "searchBox" type = "text" placeholder = "Search" name = "searchName" value ="Search...">
+		  	<i id="favIcon" class="fa fa-search" ></i>
+		  </form>
+	  </li>
+	</ul>
+</div>
+		<div id = twitter-timeline>
+		<a class="twitter-timeline" href="https://twitter.com/reconwebseries?ref_src=twsrc%5Etfw" data-height="600">Tweets by reconwebseries</a> 
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</a>
+		</div>
+		
+	<h2>Social</h2>
+	<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BghWBuqB6V8/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:38.06629834254144% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BghWBuqB6V8/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">They’re excited and so are we! Stay tuned for official cast announcements coming soon! 🎉 #reconwebseries</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/reconwebseries/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> RECON: a Queer Webseries</a> (@reconwebseries) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-03-19T22:08:16+00:00">Mar 19, 2018 at 3:08pm PDT</time></p></div></blockquote> <script async defer src="//www.instagram.com/embed.js"></script>
+
+	
+	<div include_HTML="SocialMedia.html"></div>
+	<script>includeHTML()</script>
+</body>
+</html>

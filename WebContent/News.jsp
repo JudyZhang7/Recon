@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
 <%@ include file="Menubar.jsp"%> 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -20,7 +21,7 @@
 		</div>
 		
 <h2>News</h2>
-<p>Check back with us later!</p>
+<p class>Check back with us later!</p>
 
 	<div include_HTML="SocialMedia.html"></div>
 	<script>includeHTML()</script>
