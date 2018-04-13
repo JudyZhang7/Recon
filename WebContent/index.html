@@ -6,10 +6,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="CSS/General.css" />
 <link rel="stylesheet" type="text/css" href="CSS/Menubar.css" />
-<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="import" href="Menubar.html">
 
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'> <!-- fonts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
 	<script type="text/javascript">
 	window.onload = function(){
 		// When the user scrolls the page, execute myFunction 
@@ -33,28 +33,36 @@
 	</script>
 	
 <title>Home</title>
-<!-- <script>
-	includeHTML()
-</script> -->
+
 </head>
 <body class = "content">
-
 <!-- HEADER -->
-<a href = "Home.html">
+<a href = "index.html">
 	<div id = "header"></div>
 </a>
+<!--Navigation bar-->
+<div id="navbar"></div>
 
-	<!-- TWITTER IMPORTS -->
-	
-	<h2>Home</h2>
-	<img src = "IMG/castFront.JPG">
-	<h3>Welcome to Recon! <br>Explore the cast and crew. <br>We're excited to have you joining us!</h3>
+	<script>
+	$(function(){
+	  $("#navbar").load("Menubar.html");
+	});
+	</script>
+<!--end of Navigation bar-->
+
+	<img src = "IMG/castFront.JPG" style = "max-width: 100%;">
+	<h1>Welcome to Recon!</h1>
 	
 	<p class = "center">RECON is a web series dramedy about a group of queer college freshmen and their attempts to balance their personal lives and relationships-- while training to be spies. Set entirely at a secret, unnamed school for spies, the show follows newly-out, midwestern Ava, a skilled hacker who’s finally able to come out and make friends at her new school. While she’s able to make friends quickly, everything falls apart when she finds out that her entire life is being recorded and posted online in neatly edited, five to ten minute episodes. Created by Emma Drewry, RECON is written and produced by a team of diverse students and professionals in Los Angeles, CA. </p>	
 	
+	<div id="social_media"></div>
 	
-	<div include_HTML="SocialMedia.html"></div>
-<!-- 	<script>includeHTML()</script>
- -->
+	<script>
+	$(function(){
+	  $("#social_media").load("SocialMedia.html");
+	});
+	</script>
+	
+	
 </body>
 </html>

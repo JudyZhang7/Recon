@@ -9,7 +9,9 @@
 <link rel="stylesheet" type="text/css" href="CSS/General.css" />
 
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+
 	<script type="text/javascript">
 	window.onload = function(){
 		// When the user scrolls the page, execute myFunction 
@@ -34,26 +36,31 @@
 </head>
 <body class = "content">
 <!-- HEADER -->
-<a href = "Home.html">
+<a href = "index.html">
 	<div id = "header"></div>
 </a>
+<!--Navigation bar-->
+<div id="navbar"></div>
 
-<!-- MENU BAR -->
-<div id = "navbar">
-	<ul>
-	  <li><a href="Home.html" id = "home">Home</a></li>
-	  <li><a href="Episodes.html" id = "episodes">Episodes</a></li>
-	  <li><a href="About.html" id = "about">About</a></li>
-	  <li><a href="Cast.html" id = "cast">Cast</a></li>
-	  <li><a href="Crew.html" id = "crew" >Crew</a></li>
-	  <li><a href="News.html" id = "news">News</a></li>
-	  <li><a href="Social.html" id = "social">Social</a></li>
-	</ul>
-</div>	<h2>Episodes</h2>
+	<script>
+	$(function(){
+	  $("#navbar").load("Menubar.html");
+	});
+	</script>
+<!--end of Navigation bar-->
+
+	<h1>Episodes</h1>
 		<div id = "episode">
 		</div>
-	<h3>Coming soon!</h3>
-	<div include_HTML="SocialMedia.html"></div>
-	<script>includeHTML()</script>
+	<h2>Coming soon!</h2>
+
+	<div id="social_media"></div>
+	
+	<script>
+	$(function(){
+	  $("#social_media").load("SocialMedia.html");
+	});
+	</script>
+
 </body>
 </html>
