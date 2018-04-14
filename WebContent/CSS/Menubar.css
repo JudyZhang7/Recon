@@ -1,15 +1,10 @@
 @charset "UTF-8";
 
-body{	
-	margin: 0;
-	padding: 0;
-	background: grey;
-}
-#header{
+#recon_header{
 	padding-top: 50px;
 	height: 150px;
 	background-image: url("../IMG/ReconFront.png");
-	background-size: 1300px auto;
+	background-size: 100% auto;
 	background-repeat: no-repeat;
 	color: white;
 	font-size: 100px;
@@ -49,7 +44,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 
 li {
@@ -65,26 +59,21 @@ li a {
 }
 
 li #home:hover {
-    background-color: #000000;
-}
-li #episodes:hover {
     background-color: #FF5757;
 }
-li #about:hover {
-    background-color: #FF973B;
-}
-li #cast:hover {
+li #episodes:hover {
     background-color: #FFD145;
 }
-li #crew:hover {
+li #cast:hover {
     background-color: #4ECC69;
 }
-li #news:hover {
+li #crew:hover {
     background-color: #548FDE;
 }
-li #social:hover {
+li #news:hover {
     background-color: #C471E3;
 }
+
 
 a:link, a:visited {
 	text-decoration: none;

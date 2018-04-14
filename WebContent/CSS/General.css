@@ -4,16 +4,17 @@ body {
 	padding: 0; 	
 	font-family: "Raleway", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;    
 	color: white;
+	background: grey;
 }
 .italic{
 	font-style: italic;
 }
 p{
 	position: static;
-	width: 650px;
+	width: 50%;
 	margin: 0px;
 	margin-bottom: 50px;	
-	margin-left: 50px;
+	line-height: 190%;
 }
 h1{
 	text-align: center;
@@ -25,7 +26,7 @@ h2{
 }
 h3{
 	text-align: center;
-	font-size: 15px;
+	font-size: 16px;
 	font-style: italic;
 }
 .logo{
@@ -40,32 +41,50 @@ h3{
     padding: 5px; 
     
     display: inline;
-    box-shadow: 5px 5px 2px #414141;
+    box-shadow: 5px 5px 2px black;
 }
 .center{
 	margin: auto;
+	text-align: center;
     padding: 5px;
-    background: grey;
 }
 .small{
 	font-size: 10px;
 	padding-top: 15px;
 }
-#socialMedia{
-	width: 60%;
+.linkHoverBlack:hover{
+	font-weight: bold;
+	font-size: 20px;
+}
+.shadow{
+	color: white;
+	text-transform: uppercase;
+	background-color: black;
+}
+.marginDown{
+	top: 20px;
+}
+.buffer{
+	position: relative;
+	height: 50px;
+}
+#social_media{
+	width: 54%;
 	padding: 20px;
-	margin-top: 50px;
+ 	margin-top: 50px;
 	margin: auto;
-    background: grey;
     text-align: center;
     display: block;
-    z-index: -1;
     float: bottom;
+    clear:both
 }
 #twitter-timeline{
-	width: 500px;
-	height: 200px;
-	float: right;
-	margin-top: 20px;
-	margin-right: 20px;
+ 	width: 50%;
+ 	float: right;
+ 	padding-top: 20px;
+	padding-right: 20px;
+}
+#leftNews{
+	width: 50%;
+	float: left;
 }
