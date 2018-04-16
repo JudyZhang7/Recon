@@ -14,7 +14,7 @@
 #words{
 	padding-left: 30px;
 	margin-left: 350px;
-	width: 500px;
+	width: 60%;
 	height: 600px;
 }
 .castPic{
@@ -28,6 +28,10 @@
 	padding: 5px;
 }
 
+.left-right-borders{
+	border-left: 4px solid white;
+	border-right: 4px solid white;
+}
 .name{
 	font-size: 40px;
 }
