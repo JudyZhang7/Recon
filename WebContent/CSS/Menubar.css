@@ -1,11 +1,6 @@
 @charset "UTF-8";
 
 #recon_header{
-	padding-top: 50px;
-	height: 150px;
-	background-image: url("../IMG/ReconFront.png");
-	background-size: 100% auto;
-	background-repeat: no-repeat;
 	color: white;
 	font-size: 100px;
 	text-align: center;
@@ -14,7 +9,7 @@
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%
+  width: 100%;
 }
 .sticky + .content {
   padding-top: 102px;
@@ -23,22 +18,13 @@
 .navbar{
 	width: 100%; /* Full width */
 }
-input[type=text] {
-	padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 5px;
-    margin-left: 5px;
-    font-size: 17px;
-    border-radius:10px; 
-}
+
 #favIcon{
 	font-size: 25px;
 	color: white;
 }
 /* Menubar */
 ul {
-	z-index: 100;
 	font-family: "Raleway", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;    
 	list-style-type: none;
     margin: 0;

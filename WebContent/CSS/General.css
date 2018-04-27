@@ -12,6 +12,9 @@ body {
 .medium{
 	font-size: 22px;
 }
+.content{
+	margin-top: 52px;
+}
 p{
 	position: static;
 	width: 50%;
