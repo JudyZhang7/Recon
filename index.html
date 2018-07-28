@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script type="text/javascript" src="JS/recon.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS/index.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/menubar.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'> <!-- fonts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> <!-- ajax -->
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#navbar").load("shared/menubar.html");
+            $("body").css("display", "block");
+        });
+
+        window.onload = function(){
+            // When the user scrolls the page, execute myFunction
+            window.onscroll = function() {myFunction()};
+
+            // Get the navbar
+            var navbar = document.getElementById("navbar");
+
+            // Get the offset position of the navbar
+            var sticky = navbar.offsetTop;
+
+            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        }
+
+    </script>
+
+    <title>Home</title>
+
+</head>
+<body class = "content" style = "margin-top: 0; overflow: hidden;">
+<!--Navigation bar-->
+<div id="navbar"></div>
+
+
+<div class = "container">
+<img src = "IMG/Staircase.JPG" style = "width: 100%;">
+<div id = "leftGreyPanel">
+    <h1>Welcome to Recon!</h1>
+    <p class = "center">RECON is a web series dramedy about a group of queer college freshmen and their attempts to balance their personal lives and relationships-- while training to be spies. Set entirely at a secret, unnamed school for spies, the show follows newly-out, midwestern Ava, a skilled hacker who’s finally able to come out and make friends at her new school. While she’s able to make friends quickly, everything falls apart when she finds out that her entire life is being recorded and posted online in neatly edited, five to ten minute episodes. Created by Emma Drewry, RECON is written and produced by a team of diverse students and professionals in Los Angeles, CA. </p>
+</div>
+</div>
+<div id="social_media"></div>
+
+</body>
+</html>

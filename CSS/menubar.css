@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 100px;
+}
+#navbar{
+    background-color: black;
+    z-index: 1000;
+}
+#favIcon{
+	font-size: 25px;
+	color: white;
+}
+/* Menubar */
+ul {
+	font-family: "Raleway", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;    
+	list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    font-size: 14px;
+    width: 52%;
+    margin: auto;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+}
+li #home{
+    font-size: 30px;
+}
+
+li #home:hover {
+    color: #FF5757;
+}
+li #episodes:hover {
+    color: #FFD145;
+}
+li #cast:hover {
+    color: #4ECC69;
+}
+li #crew:hover {
+    color: #548FDE;
+}
+li #news:hover {
+    color: #C471E3;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+li a.sm{
+    width: 30px;
+    padding: 16px 5px;
+}
+/*social media*/
+#social_media{
+    position: fixed;
+    left: 85%;
+}
+/*for social media*/
+.logo{
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+    display: inline;
+}

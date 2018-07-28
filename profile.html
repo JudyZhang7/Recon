@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="CSS/profile.css" />
+	<link rel="stylesheet" type="text/css" href="CSS/index.css" />
+	<link rel="stylesheet" type="text/css" href="CSS/menubar.css" />
+
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="JS/recon.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Profile</title>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#navbar").load("shared/menubar.html");
+        $("body").css("display", "block");
+    });
+	function getQueryVariable(variable)
+	{
+	       var query = window.location.search.substring(1);
+	       var vars = query.split("&");
+	       for (var i=0;i<vars.length;i++) {
+	               var pair = vars[i].split("=");
+	               if(pair[0] == variable){return pair[1];}
+	       }
+	       return(false);
+	}
+</script>
+
+</head>
+<body class = "content">
+
+<!-- MENU BAR -->
+<div id="navbar" class = "sticky"></div>
+
+<div class = "buffer"></div>
+
+<div id = "person"></div>
+	<script>
+		var index = getQueryVariable("ID"); 
+		var type = getQueryVariable("type");
+		console.log("index: " + index);
+		displayProfile(type, index);
+	</script>
+	
+<div id="social_media"></div>
+
+	
+</body>
+</html>

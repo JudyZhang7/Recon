@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body { 
+	margin: 0; 
+	padding: 0; 	
+	font-family: "Raleway", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;    
+ 	background: #222222;
+	font-size: 15px;
+}
+#castSS{
+	width: 50%;
+	float: left;
+}
+#fullCastSS{
+	width: 50%;
+	float: right;
+}
+#castInfo {
+	margin-top: 30px;
+	margin: auto;
+}
+#crewInfo {
+	margin-top: 30px;
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+}
+.linkHoverBlack{
+	font-size: 25px;
+}
+.linkHoverBlack:hover{
+	font-weight: bold;
+	font-size: 30px;
+}
+.castPic{
+ 	width: 70%;
+ 	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 5px;
+	opacity: 0.6;
+
+}
+.crewPic{
+	width: 300px;
+	padding: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	opacity: 0.6;
+}
+
+.crewPic:hover, .castPic:hover {
+	opacity: 1;
+}
+
+.bio {
+    position: relative;
+	width: 250px;
+	display: inline-block;
+	margin: 20px;
+	padding: 5px;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #293c59;
+}
+
+.bio:hover .overlay {
+	opacity: 1;
+}
+
+.biotext {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.descrip {
+	font-size: 10px;
+}

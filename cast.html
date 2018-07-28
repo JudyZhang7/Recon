@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="JS/bootstrap.bundle.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
+	<link rel="stylesheet" type="text/css" href="CSS/index.css" />
+	<link rel="stylesheet" type="text/css" href="CSS/menubar.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/cast_crew.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/slideshow.css" />
+
+    <script type="text/javascript" src="JS/recon.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("body").css("display", "block");
+        });
+        $(function(){
+            $("#navbar").load("shared/menubar.html");
+        });
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+
+<title>Cast</title>
+</head>
+<body class = "content">
+<div id="navbar" class = "sticky"></div><!--Navigation bar-->
+
+<div id = "castSS">
+<h1 style = "margin: 10px;">Cast</h1>
+  	<div id = "castInfo"></div>
+	<script>
+		displayCast();
+		showSlides(1);
+	</script>
+</div>
+
+<div id = "fullCastSS">
+<h1 style = "margin-top: 100px; ">Full Cast</h1>
+<div id = "fullCast"></div>
+	<script>
+		displayFullCast();
+	</script>
+</div>
+
+</body>
+</html>
