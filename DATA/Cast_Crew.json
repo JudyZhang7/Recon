@@ -86,6 +86,18 @@
 			"_position": "associate producer",
 			"_bio": "Victoria Perez is a queer, Texas-based photographer, and aspiring filmmaker majoring in Cinema and Media Studies at the University of Southern California. With a minor in Chicano-American Studies, she hopes to bring the latin-american experience to the silver screen and increase minority representation in the film industry.",
 			"_imageURL": "IMG/VictoriaPerez.jpg"
+		},
+		{
+			"_name": "Arjun Sarup",
+			"_position": "associate producer",
+			"_bio": "Arjun Sarup is an aspiring actor/filmmaker currently studying Computer Science with a film minor at UC Berkeley. When he is not FaceTiming with his long distance bae (his doggo), Arjun works towards bridging his love for computer animation and graphics with his love for movies. You can usually find him either tripping over himself or reviewing the latest and greatest on TV for The Daily Californian.\nSocial Media Links:\nInstagram: arjunsarup\nSnapchat: arjun.sarup\nTwitter: @arjun_sarup",
+			"_imageURL": "IMG/Arjun.jpg"
+		},
+		{
+			"_name": "Judy Zhang",
+			"_position": "web designer",
+			"_bio": "Programming is Judy’s weapon of choice to be creatively involved in her passion for aesthetically-designed new solutions to old problems. She is an aspiring software engineer who adores discovering and playing with new tools (her current favorites include Docker and node.js). Examples of what she has created include www.tbd.red, a scheduling application, as well as multiple static sites to get the hang of developing responsive UI. She hopes in the future to never stop exploring and creating.",
+			"_imageURL": "IMG/JudyZhang.jpg"
 		}
 	]
 }

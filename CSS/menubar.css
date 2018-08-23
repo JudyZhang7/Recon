@@ -11,6 +11,7 @@
 #navbar{
     background-color: black;
     z-index: 1000;
+    overflow: hidden;
 }
 #favIcon{
 	font-size: 25px;
@@ -23,8 +24,8 @@ ul {
     padding: 0;
     overflow: hidden;
     font-size: 14px;
-    width: 52%;
-    margin: auto;
+    width: 642px;
+    margin: 0 auto;
 }
 
 li {
@@ -70,6 +71,8 @@ li a.sm{
 #social_media{
     position: fixed;
     left: 85%;
+    height: 64px;
+    overflow: hidden;
 }
 /*for social media*/
 .logo{
@@ -77,4 +80,6 @@ li a.sm{
     border-radius: 10px;
     border: 2px solid white;
     display: inline;
+    overflow: hidden;
+
 }
