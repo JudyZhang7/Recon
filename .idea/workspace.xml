@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="883f04b3-0fcf-42a3-a541-37eb70deb61c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/Home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/menubar.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/menubar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DATA/Cast_Crew.json" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Cast_Crew.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/episodes.html" beforeDir="false" afterPath="$PROJECT_DIR$/episodes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMG/Arjun.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/Arjun.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,8 +97,8 @@
           <file leaf-file-name="Cast_Crew.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/DATA/Cast_Crew.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="88" column="10" lean-forward="true" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+                <state relative-caret-position="392">
+                  <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -203,17 +200,7 @@
             <path>
               <item name="Recon" type="b2602c69:ProjectViewProjectNode" />
               <item name="Recon" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Recon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Recon" type="462c0819:PsiDirectoryNode" />
               <item name="DATA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Recon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Recon" type="462c0819:PsiDirectoryNode" />
-              <item name="IMG" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Recon" type="b2602c69:ProjectViewProjectNode" />
@@ -341,12 +328,12 @@
       <workItem from="1532911439171" duration="1269000" />
       <workItem from="1534875056890" duration="1655000" />
       <workItem from="1534901658334" duration="14000" />
-      <workItem from="1534994822618" duration="106000" />
+      <workItem from="1534994822618" duration="313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19514000" />
+    <option name="totallyTimeSpent" value="19721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="778" extended-state="0" />
@@ -758,8 +745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DATA/Cast_Crew.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="88" column="10" lean-forward="true" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+        <state relative-caret-position="392">
+          <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
         </state>
       </provider>
     </entry>
